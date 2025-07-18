@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width: 850px) {
+
+    /* HEADLINE */
+    .headline {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 25px;
+    }
+    .headline h1 {
+        font-size: 50px;
+        width: 50%;
+    }
+    .headline p {
+        font-size: 25px;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    /* LETTER */
+    .letter p  {
+        width: 45%;
+    }
+    .letter h2 {
+        width: 40%;
+    }
+    .letter ul {
+        width: 40%;
+    }
+    .letter ul {
+        gap: 15px;
+    }
+
+    /* FORM */
+    form {
+        width: 40%;
+    }
+    form div {
+        width: 25vw;
+    }
+    form div input {
+        border: 1px solid rgb(49, 49, 49);
+    }
+    form input {
+        width: 25vw;
+        border: 1px solid rgb(49, 49, 49);
+    }
+
+    /* TESTIMONIALS */
+    .client {
+        flex-direction: row;
+        width: 50%;
+    }
+    .name {
+        width: 40%;
+        font-size: 16px;
+    }
+    .writeup {
+        width: 40%;
+        font-size: 16px;
+    }
+}
