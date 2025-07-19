@@ -3,9 +3,11 @@
     margin: 0;
     z-index: 1;
 }
+/*
 header {
     position: relative!important;
 }
+*/
 
 .headline {
     text-align: center;
