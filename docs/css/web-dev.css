@@ -6,6 +6,9 @@
 body {
     overflow-x: hidden;
 }
+header a:nth-child(3) {
+    background: rgba(228, 228, 228, 0.7);
+}
 
 /* PROJECT INFO/INTRO */
 .project {

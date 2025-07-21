@@ -3,6 +3,9 @@
     margin: 0;
     z-index: 1;
 }
+header a:nth-child(5) {
+    background: rgba(228, 228, 228, 0.7);
+}
 
 .about-me {
     font-family: 'Libre Baskerville', 'Inter', sans-serif;
